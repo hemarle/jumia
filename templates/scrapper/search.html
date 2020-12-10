@@ -1,0 +1,28 @@
+{% extends 'base.html'%}
+
+{%block content%}
+
+<h1>{{search_text|title}}</h1>
+
+
+{%for products in product_total%}
+    <div class="col-sm">
+<div class="card" style="width: 18rem;">
+  <img src="{{products.2}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{products.0}}</h5>
+
+    <p class="card-text">{{products.1}}</p>
+
+    <a href="{{products.3}}" target="_blank" class="btn btn-primary">Check it Out</a>
+  </div>
+</div>
+    </div>
+
+{%endfor%}
+
+
+
+
+
+{%endblock content%}
