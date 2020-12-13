@@ -5,3 +5,4 @@ It was built using beautiful soup and django
 
 ##Note!!
 This file was  created for fun and should not be reused for drop shipping or whatever commercial purpose
+Check it out on https://warm-fjord-81392.herokuapp.com/
